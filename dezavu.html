@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deja Vu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: url('https://www.transparenttextures.com/patterns/brick-wall.png'), linear-gradient(to right, #524d4b, #040404);
+            background-size: cover;
+            animation: backgroundScroll 30s linear infinite;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            animation: fadeIn 2s;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            color: white;
+            /* background: rgba(255, 255, 255, 0.8); */
+            border-radius: 10px;
+            background: url('https://gifdb.com/images/high/black-background-blue-meteor-shower-96b6ypkabnn7d0jm.gif');
+            background-size: cover;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        section {
+            margin-bottom: 2rem;
+            animation: fadeIn 2s;
+        }
+        img {
+            display: block;
+            margin: 1rem auto;
+            max-width: 100%;
+            height: auto;
+            animation: slideIn 2s;
+            opacity: 0.5;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes backgroundScroll {
+            from { background-position: 0 0; }
+            to { background-position: 100% 100%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Understanding Deja Vu</h1>
+    </header>
+
+    <div class="container">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Deja vu is a French term that means "already seen." It refers to the sensation that an event or experience currently being experienced has already been experienced in the past. This phenomenon is intriguing and has been the subject of numerous scientific, philosophical, and psychological studies.</p>
+            <img src="https://npuc.cmr.ac.in/blog/wp-content/uploads/sites/16/2019/03/1-300x187.png" alt="Mysterious landscape representing deja vu">
+        </section>
+
+        <section id="main-content">
+            <h2>What is Deja Vu?</h2>
+            <p>Deja vu is a common experience, with studies suggesting that over two-thirds of people have experienced it at some point in their lives. It is often described as an overwhelming sense of familiarity with something that shouldn't be familiar at all.</p>
+            <p>There are several theories about what causes deja vu. Some scientists believe it is related to memory processes in the brain, specifically the temporal lobe. Others suggest it may be due to a slight delay in information processing between the eyes and the brain, leading to the impression that the event has occurred before.</p>
+            <p>Psychologists also explore the idea that deja vu is a result of subconscious memories. These are memories that we are not consciously aware of but can influence our perceptions and feelings. When a current situation triggers these subconscious memories, it can create a sensation of familiarity.</p>
+            <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/323/323623/brain-illustration.jpg" alt="Brain illustration highlighting memory processes">
+        </section>
+
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>While the exact cause of deja vu remains a mystery, it is a fascinating phenomenon that highlights the complexities of human memory and perception. Whether it is a glitch in our brain's processing system or a glimpse into the workings of our subconscious, deja vu continues to captivate scientists and laypeople alike.</p>
+            <img src="https://i.pinimg.com/736x/e5/78/72/e578724c631326df2fdb87ffe09eb1a8.jpg" height="300px" width="300px" alt="Abstract representation of human perception">
+        </section>
+    </div>
+
+    <footer>
+        <p>Contact: yourname@example.com</p>
+    </footer>
+</body>
+</html>
